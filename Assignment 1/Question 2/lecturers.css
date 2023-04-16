@@ -1,0 +1,33 @@
+.lecturers-link {
+  border: 2px solid #bfa181;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.lecturers-link:hover {
+  border-bottom: 2px solid #bfa181;
+  padding-bottom: 8px !important;
+}
+
+.lecturer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0px auto;
+  height: calc(100% - 152px);
+  gap: 56px;
+  color: #bfa181;
+}
+
+.lecturer-info div p {
+  border-left: 2px solid #bfa181;
+  padding-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .lecturer-info {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,75 @@
+.about-link {
+  border: 2px solid #bfa181;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.about-link:hover {
+  border-bottom: 2px solid #bfa181;
+  padding-bottom: 8px !important;
+}
+
+.basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 900px;
+  margin: 0px auto;
+  height: calc(100% - 152px);
+  color: #bfa181;
+}
+
+.basic-info div {
+  width: 50%;
+}
+
+.basic-info img {
+  width: 276px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.basic-info div h1 {
+  color: #bfa181;
+  font-size: 72px;
+}
+
+.basic-info div p {
+  line-height: 24px;
+  padding-inline: 16px;
+  border-left: 2px solid #bfa181;
+}
+
+.basic-info .name {
+  font-size: 78px;
+  text-transform: uppercase;
+}
+
+.basic-info span {
+  color: hsl(178, 71%, 31%);
+}
+
+@media (max-width: 900px) {
+  .basic-info .name br {
+    display: none;
+  }
+  .basic-info .name {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+
+  .basic-info {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .basic-info div {
+    width: 100%;
+  }
+
+  .basic-info div h1 {
+    display: none;
+  }
+}

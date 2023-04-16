@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Question 3</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Simple contact form</h1>
+      <form action="" method="">
+        <div class="field">
+          <label for="firstname">Firstname</label>
+          <div>
+            <input type="text" name="firstname" id="firstname" class="input" />
+            <p class="warning">This field cannot be empty</p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="lastname">Lastname</label>
+          <div>
+            <input type="text" name="lastname" id="lastname" class="input" />
+            <p class="warning">This element cannot be empty</p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="dob">Date of birth</label>
+          <div>
+            <input type="date" name="dob" id="dob" class="input" />
+            <p class="warning">This element cannot be empty</p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="address">Home address</label>
+          <div>
+            <textarea
+              name="address"
+              id="address"
+              cols="30"
+              rows="3"
+              class="input"
+            ></textarea>
+            <p class="warning">This element cannot be empty</p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <div>
+            <input type="email" name="email" id="email" class="input" />
+            <p class="warning">This element cannot be empty</p>
+          </div>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>

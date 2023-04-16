@@ -1,0 +1,77 @@
+.school-link {
+  border: 2px solid #bfa181;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.school-link:hover {
+  border-bottom: 2px solid #bfa181;
+  padding-bottom: 8px !important;
+}
+
+.school-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 980px;
+  margin: 0px auto;
+  margin-block: 60px;
+  color: #bfa181;
+  gap: 20px;
+}
+
+.school-info div {
+  width: 65%;
+}
+
+.school-info img {
+  width: 250px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.school-info div h1 {
+  color: #bfa181;
+  font-size: 56px;
+}
+
+.school-info div p {
+  line-height: 24px;
+  padding-inline: 16px;
+  border-left: 2px solid #bfa181;
+}
+
+@media (max-width: 900px) {
+  .school-info .image {
+    display: none;
+  }
+  .basic-info .name {
+    font-size: 48px;
+
+    margin-bottom: 12px;
+  }
+
+  .school-info {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .school-info div {
+    width: 100%;
+  }
+
+  .school-info div h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .school-info {
+    height: auto;
+  }
+
+  .school-info div h1 {
+    font-size: 32px;
+  }
+}
